@@ -26,6 +26,6 @@ app.use(session({
     }
 }));
 
-app.use('/', view_router)
+app.use('/', view_router);
 
 app.listen(PORT, () => console.log(`SERVER SERVING @ PORT ${PORT}`));
